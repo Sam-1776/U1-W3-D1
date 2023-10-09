@@ -40,12 +40,14 @@ console.log(numPari);
 /* ESERCIZIO 4 (forEach)
   Scrivi una funzione per sommare i numeri contenuti in un array
 */
-
-let sum = 0;
-arrNumb.forEach((numb) => {
-  sum += numb;
-});
-console.log(sum);
+function summArrNum(arrayN) {
+  let sum = 0;
+  arrayN.forEach((numb) => {
+    sum += numb;
+  });
+  return sum;
+}
+console.log(summArrNum(arrNumb));
 
 /* ESERCIZIO 5 (reduce)
   Scrivi una funzione per sommare i numeri contenuti in un array
@@ -226,7 +228,6 @@ console.log(newFilm);
 /* ESERCIZIO 13 (reduce)
   Scrivi una funzione per calcolare la somma di tutti gli anni in cui sono stati prodotti i film contenuti nell'array fornito.
 */
-
 
 /* ESERCIZIO 14 (find)
   Scrivi una funzione per ottenere dall'array fornito uno specifico film (la funzione riceve un imdbID come parametro).
