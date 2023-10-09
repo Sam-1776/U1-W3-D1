@@ -227,6 +227,7 @@ console.log(newFilm);
   Scrivi una funzione per calcolare la somma di tutti gli anni in cui sono stati prodotti i film contenuti nell'array fornito.
 */
 
+
 /* ESERCIZIO 14 (find)
   Scrivi una funzione per ottenere dall'array fornito uno specifico film (la funzione riceve un imdbID come parametro).
 */
@@ -236,4 +237,5 @@ console.log(specifcFilm);
 /* ESERCIZIO 15 (findIndex)
   Scrivi una funzione per ottenere dall'array fornito l'indice del primo film uscito nell'anno fornito come parametro.
 */
-
+const indice = movies.findIndex((n) => n.Year === "2018");
+console.log(indice);
