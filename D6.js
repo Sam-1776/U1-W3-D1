@@ -61,8 +61,8 @@ console.log(sumReduce);
   Scrivi una funzione che, dato un array di soli numeri e un numero n come parametri, ritorni un secondo array con tutti i valori del precedente incrementati di n
 */
 
-const newIncrement = arrNumb.map((arr) => arr + 5);
-console.log(newIncrement);
+const newIncrement = (nam, n) => nam.map((name) => name + n);
+console.log(newIncrement(arrNumb, 2));
 
 /* ESERCIZIO 7 (map)
   Scrivi una funzione che, dato un array di stringhe, ritorni un nuovo array contenente le lunghezze delle rispettive stringhe dell'array di partenza
